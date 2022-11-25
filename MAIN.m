@@ -1,5 +1,7 @@
 clear all
 close all
+
+
 %%%%%%%%%%%%%%%%%%%%%%%%%%% Initialing %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 Zflag=1;           % 1 = with z,, 0 = z desired 
 PPC_control_flag=0;  % PPIBVS or simple IBVS?? 1=PP , 0= conventional
@@ -53,6 +55,7 @@ rr=[Raa(1,1:3),0;
 Raa(2,1:3),0;
 Raa(3,1:3),0;
 0,0,0,1];
+
 
 
 
